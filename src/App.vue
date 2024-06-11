@@ -34,10 +34,17 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 1460px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 98vh;
+  background: url('./assets/imgs/background.jpg');
+  background-repeat: repeat; /* Lặp lại hình nền theo cả chiều ngang và chiều dọc */
+  background-size: auto; /* Giữ nguyên kích thước gốc của hình nền */
 }
+
+
 li{
   list-style-type: none;
 }
@@ -48,9 +55,7 @@ ul{
   padding:0 0 ;
 }
 .formContainer{
-  /* background: url('./assets/imgs/background.jpg'); */
-  /* background-color: brown; */
-  width: 900px;
+  width: 1100px;
   height: 76%;
   margin: auto;
   display: flex;
